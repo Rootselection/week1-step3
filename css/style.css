@@ -1,0 +1,115 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #fff;
+}
+
+a {
+    font-weight: 500;
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    width: 1230px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: url('../images/header-bg.jpg');
+    min-height: 100vh;
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 46px;
+}
+
+.nav {
+    display: flex;
+    align-items: flex-end;
+}
+
+.logo {
+    max-width: 194px;
+    max-height: 65px;
+}
+
+.nav-list {
+    display: flex;
+    margin-left: 34px;
+}
+
+.nav-list__item {
+
+}
+
+.nav-list__item + .nav-list__item {
+    margin-left: 25px;
+}
+
+.nav-list__link {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.header-slider {
+    margin-top: 240px;
+}
+
+.header-slider__item {
+    outline: none;
+}
+
+.header-title {
+    font-size: 120px;
+    line-height: 141px;
+    margin-bottom: 15px;
+}
+
+.subtitle {
+    font-size: 36px;
+    line-height: 42px;
+    max-width: 674px;
+}
+
+.slick-dots {
+    display: flex;
+    margin-top: 46px;
+    
+}
+
+.slick-active button{
+    background-color: #855A3D;
+    transform: scale(1.2,1.2);
+
+}
+
+.slick-dots li + li {
+    margin-left: 20px;
+}
+
+.slick-dots button {
+    font-size: 0;
+    padding: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
